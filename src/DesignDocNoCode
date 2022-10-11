@@ -1,0 +1,6 @@
+EquationRunner class
+
+Instance Variables:
+private integer x = This is the x value that will be parsed out of the original String value
+
+LinearEquation class
