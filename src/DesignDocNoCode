@@ -19,8 +19,10 @@ public double xDiff = This will do x2 - x1, or the distance between the x-coordi
 
 EquationRunner.java
 Step 1: Import Scanner class
-Step 2: Ask user for first x,y corrdinate and store as String firstXY
-Step 3: Ask user for second x,y coordinate and store as String sceondXY
+Step 2: Ask user for first x,y corrdinate and store as String
+Step 3: Ask user for second x,y coordinate and store as String
 Step 4: Call noncat, toInt
 Step 5: Use new int values of x1,y1,x2,y2 to call and solve equation,slope,yIntercept,and xDiff and yDiff
 Step 6: Print resulting values
+Step 7: Ask for 3rd x value
+Step 8: Solve using method equation
