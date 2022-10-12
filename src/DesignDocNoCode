@@ -5,7 +5,7 @@ private int x = This represents the x-coordinate
 private int y = This represents the y-coordinate
 
 Constructor
-public LinearEquation(xYFirst,xYSecond)
+public LinearEquation(String firstXY, String secondXY)
 
 Methods
 public String noncat = Seperates the x and y into two different Strings
@@ -19,7 +19,8 @@ public double xDiff = This will do x2 - x1, or the distance between the x-coordi
 
 EquationRunner.java
 Step 1: Import Scanner class
-Step 2: Ask user for first x,y corrdinate and store as String
-Step 3: Ask user for second x,y coordinate and store as String
-Step 4: Call methods slope, equation, yIntercept, yDiff, xDiff
-Step 5: Print slope, equation, yIntercept, yDiff and xDiff //print yDiff and xDiff in seperate lines
+Step 2: Ask user for first x,y corrdinate and store as String firstXY
+Step 3: Ask user for second x,y coordinate and store as String sceondXY
+Step 4: Call noncat, toInt
+Step 5: Use new int values of x1,y1,x2,y2 to call and solve equation,slope,yIntercept,and xDiff and yDiff
+Step 6: Print resulting values
