@@ -1,6 +1,25 @@
-EquationRunner class
+LinearEquation class
 
 Instance Variables:
-private integer x = This is the x value that will be parsed out of the original String value
+private int x = This represents the x-coordinate
+private int y = This represents the y-coordinate
 
-LinearEquation class
+Constructor
+public LinearEquation(xYFirst,xYSecond)
+
+Methods
+public String noncat = Seperates the x and y into two different Strings
+public String concat = Concatenates two strings together
+public int toInt = This will convert the seperated String values of x and y to integers using Integer.parseInt()
+public String equation = This will be the equation of the line that goes through both points
+public double slope = This will calcualte the slope of the line
+public double yIntercept = This calculates the y-intercept of the line of the two original points
+public double yDiff = This will do y2 - y1, or the distance between the y-coordinates
+public double xDiff = This will do x2 - x1, or the distance between the x-coordinates
+
+EquationRunner.java
+Step 1: Import Scanner class
+Step 2: Ask user for first x,y corrdinate and store as String
+Step 3: Ask user for second x,y coordinate and store as String
+Step 4: Call methods slope, equation, yIntercept, yDiff, xDiff
+Step 5: Print slope, equation, yIntercept, yDiff and xDiff //print yDiff and xDiff in seperate lines
